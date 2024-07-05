@@ -20,8 +20,8 @@ Model Comparison
 In this project, we compared the performance of various machine learning models, including Logistic Regression, K-Nearest Neighbors (KNN), Decision Tree, and Support Vector Machine (SVM). The models were evaluated based on training time, training accuracy, and test accuracy. The results are summarized in the table below:
 
 
-| Model              | Train Time    | Train accuracy | Test Accuracy |
-| -------------------|:-------------:| :-------------:| --------------|
+| Model              |Train Time    |Train accuracy| Test Accuracy|
+| -------------------|:-------------:| :-------------:|:--------------:|
 | Logistic Regression| 0.023750      |0.874046        | 0.870899      |
 | KNN                | 0.005072      |0.876630        | 0.860072      |
 | Decision Tree      | 0.042662      |0.901772        | 0.850230      |
