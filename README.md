@@ -32,7 +32,7 @@ The results are summarized in the table below:
 | SVM                | 31.239822      | 0.882700       | 0.867618      | {'C': 10, 'gamma': 1, 'kernel': 'rbf'}                              |
 
 
-### Summary of Model Performance Findings 
+### Summary of Model Performance Findings: 
 
 - Logistic Regression: Although Logistic Regression showed good performance, it faced convergence issues. Test Accuracy: 87.09% 
 - KNN: Quick to train but slightly lower test accuracy compared to Logistic Regression and Decision Tree. Test Accuracy: 84.25%
@@ -49,9 +49,9 @@ The results are summarized in the table below:
 -- Job (Blue-collar): 0.030376
 -- Job (Unemployed): 0.025646
 
-### Recommendations
+### Recommendations and Next Steps:
 
-Targeted Marketing Strategies and Personalized communication:
+Targeted Marketing Strategies and Personalized Communication:
 
 - Age: Given the high importance of age, marketing campaigns should be tailored to different age groups. Older clients, in particular, should be targeted with campaigns that address their specific needs and preferences.
 - Students and Educated Clients: Special attention should be given to students and clients with higher education levels, such as university graduates. These groups show significant predictive importance and should be targeted with customized marketing messages.
