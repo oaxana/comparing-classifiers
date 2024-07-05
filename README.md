@@ -8,13 +8,13 @@ Our dataset comes from the UCI Machine Learning repository [link](https://archiv
 
 The Portuguese bank seeks to enhance the effectiveness of its direct marketing campaigns for bank products conducted over the telephone. The primary objective is to develop a predictive model that can classify whether a client will subscribe to a long-term deposit product. This classification task will involve comparing the performance of different classification algorithms (k-nearest neighbors, logistic regression, decision trees, and support vector machines) to determine which model best predicts client subscription. Additionally, the project aims to identify the most predictive features influencing the classification outcome.
 
-## Business Problem Redefined as an ML Data Problem:
+## Business Problem Redefined as an ML Data Problem
 
 - Classification: Develop and evaluate multiple classifier models to predict whether a client will subscribe to the long-term deposit product.
 - Model Comparison: Compare the performance of k-nearest neighbors, logistic regression, decision trees, and support vector machines to identify the most accurate and reliable model.
 - Feature Importance: Analyze and identify the top features that significantly contribute to the prediction of a client's likelihood to subscribe to the deposit product.
 
-## Key Findings:
+## Key Findings
 
 In this project, we compared the performance of various machine learning models, including Logistic Regression, K-Nearest Neighbors (KNN), Decision Tree, and Support Vector Machine (SVM). The models were evaluated based on training time, training accuracy, and test accuracy. 
 
