@@ -32,26 +32,14 @@ The results are summarized in the table below:
 | SVM                | 31.239822      | 0.882700       | 0.867618      | {'C': 10, 'gamma': 1, 'kernel': 'rbf'}                              |
 
 
-                          Feature  Importance
-0                             age    0.518197
-9                     job_student    0.171793
-21    education_university.degree    0.101527
-15             education_basic.4y    0.035626
-2                 job_blue-collar    0.030376
-11                 job_unemployed    0.025646
-14                 marital_single    0.021512
-13                marital_married    0.014517
-12               marital_divorced    0.013913
-20  education_professional.course    0.011334
-
 ### Summary of Model Performance Findings 
 
 - Logistic Regression: Although Logistic Regression showed good performance, it faced convergence issues. Test Accuracy: 87.09% 
 - KNN: Quick to train but slightly lower test accuracy compared to Logistic Regression and Decision Tree. Test Accuracy: 84.25%
-- Decision Tree: Performed similarly well as Logistic Regressioncy. Despite the SVM model achieving slightly higher accuracy, the Decision Tree's interpretability makes it valuable for understanding feature importance.Test Accuracy: 87.09%
+- Decision Tree: Performed similarly well as Logistic Regressioncy. Despite the SVM model achieving slightly higher accuracy, the Decision Tree's interpretability makes it valuable for understanding feature importance. Test Accuracy: 87.09%
 - SVM: Highest training accuracy but also extremely long training time, indicating it can handle complex decision boundaries well, however the minimal improvement in performance is generally not worth the extra compute time. Test Accuracy: 86.76%
 
-### Feature Importances from Decision Tree model:
+### Most Important Features from Decision Tree model:
 
 - Age: The most significant feature with an importance of 0.518197. Older clients are more likely to respond positively to marketing campaigns.
 - Job (Student): With an importance of 0.171793, being a student significantly impacts the likelihood of a positive response.
@@ -68,20 +56,11 @@ Targeted Marketing Strategies and Personalized communication:
 - Age: Given the high importance of age, marketing campaigns should be tailored to different age groups. Older clients, in particular, should be targeted with campaigns that address their specific needs and preferences.
 - Students and Educated Clients: Special attention should be given to students and clients with higher education levels, such as university graduates. These groups show significant predictive importance and should be targeted with customized marketing messages.
 
+Feature Engineering and Further Model Tuning:
 
-Feature Engineering and Exploration:
 - Job and Education Levels: Further feature engineering could uncover additional valuable predictors. For example, exploring interactions between job types and education levels may provide deeper insights into client behaviors.
-- Handling Convergence Issues: For Logistic Regression, consider further increasing the max_iter parameter or using a different solver like 'saga' to ensure model convergence.
-Model Tuning and Advanced Techniques:
-
-Decision Tree: Given its high accuracy and interpretability, further tuning of the Decision Tree model's parameters, such as max_depth and criterion, could yield even better results.
-KNN and SVM: Experiment with different values for n_neighbors in KNN and explore different kernels and regularization parameters for SVM to optimize their performance.
-Adjusting Performance Metrics:
-
-Metrics: Consider using metrics like Precision, Recall, and F1 Score, especially since there is a class imbalance, to better capture the model's performance.
+- Handling Convergence Issues: For Logistic Regression, increasing the max_iter parameter or using a different solver like 'saga' could help achieve convergence.
+- Decision Tree: Given its high accuracy and interpretability, further tuning of the Decision Tree model's parameters, such as max_depth and criterion, could yield even better results.
+- Adjusting Performance Metrics: Precision, Recall, and F1 Score could be explored as additional metrics, especially since there is a class imbalance, to better capture the model's performance.
 
 By implementing these recommendations, the bank can optimize its marketing strategies to better target potential clients and improve the overall effectiveness of its campaigns. Future work could involve refining these models and exploring additional features to further enhance predictive performance.
-
-
-
-
